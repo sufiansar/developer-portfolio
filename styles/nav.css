@@ -1,0 +1,41 @@
+body{
+    font-family: "Lato" ,sans-serif;
+    font-family: "Open Sans", sans-serif;
+  
+}
+
+nav{
+    display:flex;
+}
+
+.nav-titel{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+.text-primary{
+    color: #fd6e0a;
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    background-color:#fd6e0a;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
+
+nav >ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
