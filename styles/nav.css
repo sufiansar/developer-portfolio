@@ -114,7 +114,7 @@ main{
 }
 
 main section{
-    margin top: 130px;
+    margin-top: 130px;
 }
 
 .about-info-section{
@@ -143,8 +143,50 @@ main section{
 
     
 }
+.skill :hover{
+    
+    background-color: #fd6e0a;
+    color: #FFF8F3;
+    box-shadow: 0px 6px 30px 0px rgb(0, 0, 0);
+    border-radius: 10px;
+}
 .skill-description{
     color: #757575;
     
+
+}
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 60px;
+}
+
+.resume-item-institute,.resume-item-description{
+    color: #757575;
+}
+
+.resume-item-titel{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.resume-container hr{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.resume-item-institute{
+
+    margin: 0px 10px;
+}
+
+.download-CV{
+    text-align: center;
+    margin-top: 50px;
 
 }
